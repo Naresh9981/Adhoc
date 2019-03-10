@@ -7,4 +7,5 @@ node{
    def mvnhome = tool name: 'MAVEN3.5', type: 'maven'
    sh "${mvnhome}/bin/mvn -f time-tracker/pom.xml clean install package"    
    }
+  }
 }
